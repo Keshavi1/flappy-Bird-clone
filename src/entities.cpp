@@ -36,7 +36,6 @@ void drawbg(unsigned int texture, unsigned int &program, size_t size){
     glActiveTexture(GL_TEXTURE0);
 
     //createing a continuouse scrolling affect with two backgrounds
-    //?maybe different images can be used
     glBindTexture(GL_TEXTURE_2D, texture);
     glm::mat4 model = glm::scale(glm::mat4(1.0f), glm::vec3(2.01));
     model = glm::translate(model, bgPos[0]);
