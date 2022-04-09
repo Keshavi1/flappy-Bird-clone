@@ -8,7 +8,7 @@
 #include "shaderutil.h"
 #include "entities.h"
 
-//todo:  cooler background/senary, add more pipes on screen at once, keep track of and show score (pipes cleared and time) 
+
 
 
 void processInput(GLFWwindow* window);
